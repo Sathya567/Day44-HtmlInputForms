@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../assets/css/HtmlForms.css" />
+    <title>HTML FORM</title>
+</head>
+<body>
+    <section class="MainContainer">
+        <header>
+            <h1>HTML FORM VALIDATION</h1>
+        </header>
+        <form>
+            <div>
+                <label for="name">Text Input Type</label>
+                <input type="text" name="name" id="name" placeholder="Sathyasriman" />
+                <error class="error" for="name" id="errorName"></error>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email Input Type</label>
+                <input type="email" name="email" id="email" placeholder="satyabhandarai43@gmail.com">
+                <error class="error" for="email" id="errorEmail"></error>
+            </div>
+            <br>
+            <div>
+                <label for="tel">Tel Input Type</label>
+                <input type="tel" name="tel" id="tel" placeholder="91 7989501656">
+                <error class="error" for="tel" id="errorTel"></error>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password Input Type</label>
+                <input type="password" name="password" id="password" placeholder="P@reddy5am$">
+                <error class="error" for="password" id="errorPassword"></error>
+            </div>
+            <br>
+            <div>
+                <label for="url">Url Input Type</label>
+                <input type="url" name="url" id="url" placeholder="https://sathyay4.com">
+                <error class="error" for="url" id="errorUrl"></error>
+            </div>
+            <br>
+            <div>
+                <label for="number">Number Input Type</label>
+                <input type="number" name="number" id="number" placeholder="518301">
+                <error class="error" for="number" id="errorNumber"></error>
+            </div>
+            <br>
+            <div>
+                <label for="search">Search Input Type</label>
+                <input type="search" name="search" id="search" />
+            </div>
+            <br>
+            <div>
+                <label for="dateTime">Date and Time</label>
+                <input type="datetime-local" name="dateTime" id="dateTime">
+                <error class="error" for="dateTime" id="errorDate"></error>
+            </div>
+            <br>
+            <div>
+                <label for="salary">Salary</label>
+                <input type="range" name="salary" id="salary" min="30000" max="500000" step="100" value="400000">
+                <output for="salary" class="salary_output" id="salary_output"></output>
+            </div>
+            <div>
+                <button>
+                    SUBMIT
+                </button>
+            </div>
+        </form>
+    </section>
+    <!---Including external Javascript file-->
+    <script type="text/javascript" src="../Js/HtmlForms.js"></script>
+</body>
+</html>
