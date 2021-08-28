@@ -1,0 +1,75 @@
+html{
+    background-color: cadetblue;
+}
+.MainContainer
+{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1%;
+    margin-top: 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.MainContainer>header
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: cadetblue;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 3%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+form{
+    margin-top: 5%;
+}
+div{
+    margin: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+label,input,button{
+    font-size: 16px;
+    line-height: 1.5;
+}
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+input{
+    flex:auto;
+}
+button
+{
+    width: 60%;
+    margin: 0 auto;
+    background-color: cadetblue;
+    border-radius: 8px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3%;
+    letter-spacing: 3px;
+}
+.error
+{
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    label
+    {
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .MainContainer
+    {
+        max-width: 800px;
+    }
+}
